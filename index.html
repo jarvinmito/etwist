@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Text Twist</title>
+	<style>
+		*{box-sizing:border-box;}
+		body{ text-align:center;}
+		img{
+			margin:auto;
+			height:250px;
+		}
+
+		ul{
+			list-style: none;
+			padding:0;
+			margin:0;
+		}
+
+		ul li {
+			display:inline-block;
+			vertical-align: top;
+			margin:10px;
+		}
+
+		a.blank, a.buttons{
+			display:block;
+			padding:20px;
+			text-align:center;
+			text-decoration: none;
+		}
+		
+		a.blank{
+			font-size:18px;
+			background:#c9c9c9;
+			line-height:12px;
+			width:50px;
+			height:50px;
+		}
+
+		a.blank.incorrect{
+			background-color:#c00000;
+			color:#fefefe;
+		}
+
+		a.buttons{
+			font-size: 24px;
+			line-height:20px;
+			width:60px;
+			height:60px;
+			background:#efefef;
+		}
+
+		h1.success{
+			color:#66ff33;
+		}
+
+		.hide{ display:none;}
+	</style>
+</head>
+<body>
+	<div class="tt-container">
+		<img class="ePhoto" src="assets/images/sample.jpg" />
+		<h1 class="hide" data-text="ENGAGE">ENGAGE</h1>
+		<div class="blank-answer"><!-- BLANK ANSWER --></div>
+		<div class="btn-answer"><!-- BUTTON ANSWER --></div>
+	</div>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="engage.js"></script>
+</body>
+</html>
