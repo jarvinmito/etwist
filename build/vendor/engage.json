@@ -1,0 +1,15 @@
+{
+	"challenges"	:
+	[
+		{
+			"level" : 1,
+			"word" : "ENGAGE",
+			"photo" : "assets/images/sample.jpg"
+		},
+		{
+			"level" : 2,
+			"word" : "BUILDING",
+			"photo" : "assets/images/sample2.jpg"
+		}
+	]
+}
